@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelBloom Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2>🌸 PixelBloom Studio</h2>
+        <p>Little pages, meaningful feelings.</p>
+    </header>
+
+    <main>
+        <h1>Make Things Right 💗</h1>
+        <p>Create a beautiful apology page for someone special.</p>
+
+        <div class="generator">
+            <label>Who do you want to apologise to?</label>
+            <input type="text" id="personName"
+                placeholder="Enter their name">
+
+            <label>Write your apology message</label>
+            <textarea id="apologyMessage"
+                placeholder="Write something from your heart..."></textarea>
+
+            <button onclick="createApology()">
+                Create My Apology 💌
+            </button>
+
+            <div id="result"></div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
